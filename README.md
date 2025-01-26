@@ -36,7 +36,7 @@ Miners must return their predictions before the specified start time, adhering t
 Miners provide probabilistic forecasts that include:
 - **Simulated Paths**: Multiple paths showing the predicted evolution of the target metric over the specified time horizon.
 - **Uncertainty Quantification**: Confidence intervals or distributions for their predictions.
-- **Parameter Suggestions**: Recommendations for vault parameter adjustments (e.g., interest rate changes, LTV adjustments) based on their forecasts.
+- **Parameter Suggestions**: Recommendations for vault parameter adjustments (e.g., interest rate changes) based on their forecasts.
 
 While not all parameter suggestions can be directly executed or validated, the data from these recommendations will be aggregated over time to provide deeper insights into the relationship between key metrics and market conditions. This aggregated understanding will be valuable for refining models and identifying high-performing miners.
 
